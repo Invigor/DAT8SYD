@@ -1,0 +1,7 @@
+Algorithm,RMSE,MAE,Prediction
+BaselineOnly,0.9443,0.7486,4.16
+SVD,0.9363,0.738,4.3
+Non-Negative Matrix Factorisation,0.9639,0.758,4.3
+KNN with Means,0.9509,0.7491,4.21
+CoClustering,0.9659,0.7559,4.37
+SlopeOne,0.9452,0.7431,4.25
