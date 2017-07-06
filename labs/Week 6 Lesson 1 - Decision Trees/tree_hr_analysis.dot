@@ -83,7 +83,11 @@ node [shape=box] ;
 38 -> 40 ;
 41 [label="gini = 0.0\nsamples = 11\nvalue = [11, 0]"] ;
 37 -> 41 ;
+<<<<<<< HEAD
 42 [label="last_evaluation <= 0.76\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+=======
+42 [label="satisfaction_level <= 0.415\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+>>>>>>> upstream/master
 34 -> 42 ;
 43 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 42 -> 43 ;
@@ -123,7 +127,11 @@ node [shape=box] ;
 58 -> 60 ;
 61 [label="gini = 0.0\nsamples = 33\nvalue = [33, 0]"] ;
 55 -> 61 ;
+<<<<<<< HEAD
 62 [label="average_montly_hours <= 231.0\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+=======
+62 [label="satisfaction_level <= 0.145\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+>>>>>>> upstream/master
 54 -> 62 ;
 63 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 62 -> 63 ;
@@ -133,7 +141,11 @@ node [shape=box] ;
 53 -> 65 ;
 66 [label="average_montly_hours <= 154.0\ngini = 0.2076\nsamples = 17\nvalue = [15, 2]"] ;
 65 -> 66 ;
+<<<<<<< HEAD
 67 [label="sales_product_mng <= 0.5\ngini = 0.48\nsamples = 5\nvalue = [3, 2]"] ;
+=======
+67 [label="satisfaction_level <= 0.14\ngini = 0.48\nsamples = 5\nvalue = [3, 2]"] ;
+>>>>>>> upstream/master
 66 -> 67 ;
 68 [label="last_evaluation <= 0.875\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
 67 -> 68 ;
@@ -173,6 +185,7 @@ node [shape=box] ;
 77 -> 85 ;
 86 [label="gini = 0.0\nsamples = 64\nvalue = [64, 0]"] ;
 85 -> 86 ;
+<<<<<<< HEAD
 87 [label="number_project <= 5.5\ngini = 0.1327\nsamples = 14\nvalue = [13, 1]"] ;
 85 -> 87 ;
 88 [label="gini = 0.0\nsamples = 9\nvalue = [9, 0]"] ;
@@ -186,6 +199,21 @@ node [shape=box] ;
 92 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 91 -> 92 ;
 93 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+=======
+87 [label="sales_product_mng <= 0.5\ngini = 0.1327\nsamples = 14\nvalue = [13, 1]"] ;
+85 -> 87 ;
+88 [label="gini = 0.0\nsamples = 9\nvalue = [9, 0]"] ;
+87 -> 88 ;
+89 [label="number_project <= 5.5\ngini = 0.32\nsamples = 5\nvalue = [4, 1]"] ;
+87 -> 89 ;
+90 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
+89 -> 90 ;
+91 [label="Work_accident <= 0.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+89 -> 91 ;
+92 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+91 -> 92 ;
+93 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+>>>>>>> upstream/master
 91 -> 93 ;
 94 [label="satisfaction_level <= 0.15\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
 76 -> 94 ;
@@ -193,6 +221,7 @@ node [shape=box] ;
 94 -> 95 ;
 96 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 94 -> 96 ;
+<<<<<<< HEAD
 97 [label="time_spend_company <= 6.5\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
 75 -> 97 ;
 98 [label="left <= 0.5\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
@@ -202,6 +231,17 @@ node [shape=box] ;
 100 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 98 -> 100 ;
 101 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+=======
+97 [label="sales_product_mng <= 0.5\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
+75 -> 97 ;
+98 [label="sales_support <= 0.5\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+97 -> 98 ;
+99 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+98 -> 99 ;
+100 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+98 -> 100 ;
+101 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+>>>>>>> upstream/master
 97 -> 101 ;
 102 [label="gini = 0.0\nsamples = 97\nvalue = [97, 0]"] ;
 74 -> 102 ;
@@ -227,11 +267,19 @@ node [shape=box] ;
 108 -> 112 ;
 113 [label="gini = 0.0\nsamples = 19\nvalue = [19, 0]"] ;
 107 -> 113 ;
+<<<<<<< HEAD
 114 [label="salary_high <= 0.5\ngini = 0.48\nsamples = 5\nvalue = [3, 2]"] ;
 104 -> 114 ;
 115 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
 114 -> 115 ;
 116 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+=======
+114 [label="salary_low <= 0.5\ngini = 0.48\nsamples = 5\nvalue = [3, 2]"] ;
+104 -> 114 ;
+115 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+114 -> 115 ;
+116 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
+>>>>>>> upstream/master
 114 -> 116 ;
 117 [label="last_evaluation <= 0.985\ngini = 0.0252\nsamples = 391\nvalue = [386, 5]"] ;
 103 -> 117 ;
@@ -273,7 +321,11 @@ node [shape=box] ;
 133 -> 135 ;
 136 [label="satisfaction_level <= 0.205\ngini = 0.142\nsamples = 13\nvalue = [12, 1]"] ;
 118 -> 136 ;
+<<<<<<< HEAD
 137 [label="satisfaction_level <= 0.19\ngini = 0.375\nsamples = 4\nvalue = [3, 1]"] ;
+=======
+137 [label="sales_product_mng <= 0.5\ngini = 0.375\nsamples = 4\nvalue = [3, 1]"] ;
+>>>>>>> upstream/master
 136 -> 137 ;
 138 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
 137 -> 138 ;
@@ -281,11 +333,19 @@ node [shape=box] ;
 137 -> 139 ;
 140 [label="gini = 0.0\nsamples = 9\nvalue = [9, 0]"] ;
 136 -> 140 ;
+<<<<<<< HEAD
 141 [label="average_montly_hours <= 194.0\ngini = 0.1975\nsamples = 9\nvalue = [8, 1]"] ;
 117 -> 141 ;
 142 [label="gini = 0.0\nsamples = 7\nvalue = [7, 0]"] ;
 141 -> 142 ;
 143 [label="satisfaction_level <= 0.205\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+=======
+141 [label="sales_RandD <= 0.5\ngini = 0.1975\nsamples = 9\nvalue = [8, 1]"] ;
+117 -> 141 ;
+142 [label="gini = 0.0\nsamples = 7\nvalue = [7, 0]"] ;
+141 -> 142 ;
+143 [label="average_montly_hours <= 182.0\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+>>>>>>> upstream/master
 141 -> 143 ;
 144 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 143 -> 144 ;
@@ -347,7 +407,11 @@ node [shape=box] ;
 171 -> 172 ;
 173 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
 171 -> 173 ;
+<<<<<<< HEAD
 174 [label="time_spend_company <= 3.5\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+=======
+174 [label="number_project <= 5.0\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+>>>>>>> upstream/master
 168 -> 174 ;
 175 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
 174 -> 175 ;
@@ -373,11 +437,19 @@ node [shape=box] ;
 183 -> 185 ;
 186 [label="average_montly_hours <= 199.5\ngini = 0.248\nsamples = 131\nvalue = [112, 19]"] ;
 158 -> 186 ;
+<<<<<<< HEAD
 187 [label="sales_support <= 0.5\ngini = 0.375\nsamples = 4\nvalue = [1, 3]"] ;
 186 -> 187 ;
 188 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 187 -> 188 ;
 189 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+=======
+187 [label="sales_product_mng <= 0.5\ngini = 0.375\nsamples = 4\nvalue = [1, 3]"] ;
+186 -> 187 ;
+188 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+187 -> 188 ;
+189 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+>>>>>>> upstream/master
 187 -> 189 ;
 190 [label="sales_hr <= 0.5\ngini = 0.2202\nsamples = 127\nvalue = [111, 16]"] ;
 186 -> 190 ;
@@ -411,12 +483,17 @@ node [shape=box] ;
 202 -> 204 ;
 205 [label="gini = 0.0\nsamples = 44\nvalue = [44, 0]"] ;
 201 -> 205 ;
+<<<<<<< HEAD
 206 [label="satisfaction_level <= 0.455\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+=======
+206 [label="last_evaluation <= 0.775\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+>>>>>>> upstream/master
 200 -> 206 ;
 207 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 206 -> 207 ;
 208 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 206 -> 208 ;
+<<<<<<< HEAD
 209 [label="satisfaction_level <= 0.345\ngini = 0.4444\nsamples = 6\nvalue = [4, 2]"] ;
 199 -> 209 ;
 210 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
@@ -428,22 +505,47 @@ node [shape=box] ;
 213 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 211 -> 213 ;
 214 [label="average_montly_hours <= 224.0\ngini = 0.42\nsamples = 10\nvalue = [7, 3]"] ;
+=======
+209 [label="last_evaluation <= 0.835\ngini = 0.4444\nsamples = 6\nvalue = [4, 2]"] ;
+199 -> 209 ;
+210 [label="last_evaluation <= 0.7\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+209 -> 210 ;
+211 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+210 -> 211 ;
+212 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+210 -> 212 ;
+213 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
+209 -> 213 ;
+214 [label="satisfaction_level <= 0.335\ngini = 0.42\nsamples = 10\nvalue = [7, 3]"] ;
+>>>>>>> upstream/master
 198 -> 214 ;
 215 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
 214 -> 215 ;
 216 [label="gini = 0.0\nsamples = 7\nvalue = [7, 0]"] ;
 214 -> 216 ;
+<<<<<<< HEAD
 217 [label="average_montly_hours <= 235.5\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
 197 -> 217 ;
 218 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
 217 -> 218 ;
 219 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+=======
+217 [label="time_spend_company <= 5.0\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
+197 -> 217 ;
+218 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+217 -> 218 ;
+219 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+>>>>>>> upstream/master
 217 -> 219 ;
 220 [label="average_montly_hours <= 235.0\ngini = 0.48\nsamples = 5\nvalue = [2, 3]"] ;
 190 -> 220 ;
 221 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 220 -> 221 ;
+<<<<<<< HEAD
 222 [label="last_evaluation <= 0.87\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+=======
+222 [label="average_montly_hours <= 257.5\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+>>>>>>> upstream/master
 220 -> 222 ;
 223 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
 222 -> 223 ;
@@ -485,6 +587,7 @@ node [shape=box] ;
 240 -> 241 ;
 242 [label="gini = 0.0\nsamples = 156\nvalue = [156, 0]"] ;
 241 -> 242 ;
+<<<<<<< HEAD
 243 [label="last_evaluation <= 0.905\ngini = 0.0907\nsamples = 21\nvalue = [20, 1]"] ;
 241 -> 243 ;
 244 [label="salary_low <= 0.5\ngini = 0.375\nsamples = 4\nvalue = [3, 1]"] ;
@@ -495,6 +598,18 @@ node [shape=box] ;
 244 -> 246 ;
 247 [label="gini = 0.0\nsamples = 17\nvalue = [17, 0]"] ;
 243 -> 247 ;
+=======
+243 [label="satisfaction_level <= 0.845\ngini = 0.0907\nsamples = 21\nvalue = [20, 1]"] ;
+241 -> 243 ;
+244 [label="gini = 0.0\nsamples = 17\nvalue = [17, 0]"] ;
+243 -> 244 ;
+245 [label="time_spend_company <= 2.5\ngini = 0.375\nsamples = 4\nvalue = [3, 1]"] ;
+243 -> 245 ;
+246 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+245 -> 246 ;
+247 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
+245 -> 247 ;
+>>>>>>> upstream/master
 248 [label="satisfaction_level <= 0.485\ngini = 0.1588\nsamples = 161\nvalue = [147, 14]"] ;
 240 -> 248 ;
 249 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
@@ -517,16 +632,25 @@ node [shape=box] ;
 256 -> 257 ;
 258 [label="average_montly_hours <= 256.0\ngini = 0.1841\nsamples = 39\nvalue = [35, 4]"] ;
 256 -> 258 ;
+<<<<<<< HEAD
 259 [label="salary_high <= 0.5\ngini = 0.375\nsamples = 4\nvalue = [1, 3]"] ;
 258 -> 259 ;
 260 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 259 -> 260 ;
 261 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+=======
+259 [label="satisfaction_level <= 0.715\ngini = 0.375\nsamples = 4\nvalue = [1, 3]"] ;
+258 -> 259 ;
+260 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+259 -> 260 ;
+261 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+>>>>>>> upstream/master
 259 -> 261 ;
 262 [label="promotion_last_5years <= 0.5\ngini = 0.0555\nsamples = 35\nvalue = [34, 1]"] ;
 258 -> 262 ;
 263 [label="gini = 0.0\nsamples = 33\nvalue = [33, 0]"] ;
 262 -> 263 ;
+<<<<<<< HEAD
 264 [label="satisfaction_level <= 0.87\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
 262 -> 264 ;
 265 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
@@ -540,6 +664,21 @@ node [shape=box] ;
 269 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 268 -> 269 ;
 270 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+=======
+264 [label="last_evaluation <= 0.925\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+262 -> 264 ;
+265 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+264 -> 265 ;
+266 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+264 -> 266 ;
+267 [label="average_montly_hours <= 211.5\ngini = 0.2778\nsamples = 18\nvalue = [15, 3]"] ;
+255 -> 267 ;
+268 [label="satisfaction_level <= 0.845\ngini = 0.375\nsamples = 4\nvalue = [1, 3]"] ;
+267 -> 268 ;
+269 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+268 -> 269 ;
+270 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+>>>>>>> upstream/master
 268 -> 270 ;
 271 [label="gini = 0.0\nsamples = 14\nvalue = [14, 0]"] ;
 267 -> 271 ;
@@ -565,6 +704,7 @@ node [shape=box] ;
 280 -> 281 ;
 282 [label="average_montly_hours <= 139.0\ngini = 0.0077\nsamples = 781\nvalue = [778, 3]"] ;
 281 -> 282 ;
+<<<<<<< HEAD
 283 [label="average_montly_hours <= 137.5\ngini = 0.0689\nsamples = 56\nvalue = [54, 2]"] ;
 282 -> 283 ;
 284 [label="sales_support <= 0.5\ngini = 0.037\nsamples = 53\nvalue = [52, 1]"] ;
@@ -572,6 +712,15 @@ node [shape=box] ;
 285 [label="gini = 0.0\nsamples = 41\nvalue = [41, 0]"] ;
 284 -> 285 ;
 286 [label="satisfaction_level <= 0.515\ngini = 0.1528\nsamples = 12\nvalue = [11, 1]"] ;
+=======
+283 [label="sales_RandD <= 0.5\ngini = 0.0689\nsamples = 56\nvalue = [54, 2]"] ;
+282 -> 283 ;
+284 [label="sales_support <= 0.5\ngini = 0.037\nsamples = 53\nvalue = [52, 1]"] ;
+283 -> 284 ;
+285 [label="gini = 0.0\nsamples = 39\nvalue = [39, 0]"] ;
+284 -> 285 ;
+286 [label="satisfaction_level <= 0.515\ngini = 0.1327\nsamples = 14\nvalue = [13, 1]"] ;
+>>>>>>> upstream/master
 284 -> 286 ;
 287 [label="satisfaction_level <= 0.505\ngini = 0.2778\nsamples = 6\nvalue = [5, 1]"] ;
 286 -> 287 ;
@@ -579,6 +728,7 @@ node [shape=box] ;
 287 -> 288 ;
 289 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 287 -> 289 ;
+<<<<<<< HEAD
 290 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
 286 -> 290 ;
 291 [label="number_project <= 4.5\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
@@ -586,6 +736,15 @@ node [shape=box] ;
 292 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 291 -> 292 ;
 293 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+=======
+290 [label="gini = 0.0\nsamples = 8\nvalue = [8, 0]"] ;
+286 -> 290 ;
+291 [label="last_evaluation <= 0.73\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+283 -> 291 ;
+292 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+291 -> 292 ;
+293 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+>>>>>>> upstream/master
 291 -> 293 ;
 294 [label="promotion_last_5years <= 0.5\ngini = 0.0028\nsamples = 725\nvalue = [724, 1]"] ;
 282 -> 294 ;
@@ -617,21 +776,37 @@ node [shape=box] ;
 301 -> 307 ;
 308 [label="average_montly_hours <= 169.0\ngini = 0.2688\nsamples = 25\nvalue = [21, 4]"] ;
 307 -> 308 ;
+<<<<<<< HEAD
 309 [label="average_montly_hours <= 163.5\ngini = 0.4898\nsamples = 7\nvalue = [4, 3]"] ;
 308 -> 309 ;
 310 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
 309 -> 310 ;
 311 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+=======
+309 [label="time_spend_company <= 2.5\ngini = 0.4898\nsamples = 7\nvalue = [4, 3]"] ;
+308 -> 309 ;
+310 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+309 -> 310 ;
+311 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
+>>>>>>> upstream/master
 309 -> 311 ;
 312 [label="average_montly_hours <= 259.5\ngini = 0.1049\nsamples = 18\nvalue = [17, 1]"] ;
 308 -> 312 ;
 313 [label="gini = 0.0\nsamples = 16\nvalue = [16, 0]"] ;
 312 -> 313 ;
+<<<<<<< HEAD
 314 [label="average_montly_hours <= 267.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
 312 -> 314 ;
 315 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 314 -> 315 ;
 316 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+=======
+314 [label="time_spend_company <= 2.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+312 -> 314 ;
+315 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+314 -> 315 ;
+316 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+>>>>>>> upstream/master
 314 -> 316 ;
 317 [label="salary_low <= 0.5\ngini = 0.036\nsamples = 109\nvalue = [107, 2]"] ;
 307 -> 317 ;
@@ -645,7 +820,11 @@ node [shape=box] ;
 320 -> 321 ;
 322 [label="average_montly_hours <= 237.0\ngini = 0.375\nsamples = 8\nvalue = [6, 2]"] ;
 320 -> 322 ;
+<<<<<<< HEAD
 323 [label="number_project <= 3.5\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+=======
+323 [label="last_evaluation <= 0.72\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+>>>>>>> upstream/master
 322 -> 323 ;
 324 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 323 -> 324 ;
@@ -721,6 +900,7 @@ node [shape=box] ;
 358 -> 359 ;
 360 [label="gini = 0.0\nsamples = 18\nvalue = [18, 0]"] ;
 359 -> 360 ;
+<<<<<<< HEAD
 361 [label="satisfaction_level <= 0.62\ngini = 0.32\nsamples = 5\nvalue = [4, 1]"] ;
 359 -> 361 ;
 362 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
@@ -728,6 +908,15 @@ node [shape=box] ;
 363 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 361 -> 363 ;
 364 [label="satisfaction_level <= 0.61\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+=======
+361 [label="last_evaluation <= 0.95\ngini = 0.32\nsamples = 5\nvalue = [4, 1]"] ;
+359 -> 361 ;
+362 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+361 -> 362 ;
+363 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
+361 -> 363 ;
+364 [label="average_montly_hours <= 254.5\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+>>>>>>> upstream/master
 358 -> 364 ;
 365 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 364 -> 365 ;
@@ -743,7 +932,11 @@ node [shape=box] ;
 368 -> 370 ;
 371 [label="gini = 0.0\nsamples = 8\nvalue = [8, 0]"] ;
 370 -> 371 ;
+<<<<<<< HEAD
 372 [label="satisfaction_level <= 0.905\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+=======
+372 [label="last_evaluation <= 0.885\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+>>>>>>> upstream/master
 370 -> 372 ;
 373 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 372 -> 373 ;
@@ -783,6 +976,7 @@ node [shape=box] ;
 389 -> 390 ;
 391 [label="satisfaction_level <= 0.805\ngini = 0.0549\nsamples = 177\nvalue = [172, 5]"] ;
 389 -> 391 ;
+<<<<<<< HEAD
 392 [label="number_project <= 3.5\ngini = 0.32\nsamples = 10\nvalue = [8, 2]"] ;
 391 -> 392 ;
 393 [label="average_montly_hours <= 269.0\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
@@ -790,6 +984,15 @@ node [shape=box] ;
 394 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 393 -> 394 ;
 395 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+=======
+392 [label="last_evaluation <= 0.755\ngini = 0.32\nsamples = 10\nvalue = [8, 2]"] ;
+391 -> 392 ;
+393 [label="last_evaluation <= 0.735\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
+392 -> 393 ;
+394 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+393 -> 394 ;
+395 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+>>>>>>> upstream/master
 393 -> 395 ;
 396 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
 392 -> 396 ;
@@ -815,7 +1018,11 @@ node [shape=box] ;
 238 -> 406 ;
 407 [label="satisfaction_level <= 0.495\ngini = 0.0605\nsamples = 64\nvalue = [62, 2]"] ;
 406 -> 407 ;
+<<<<<<< HEAD
 408 [label="average_montly_hours <= 239.5\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+=======
+408 [label="sales_support <= 0.5\ngini = 0.4444\nsamples = 3\nvalue = [2, 1]"] ;
+>>>>>>> upstream/master
 407 -> 408 ;
 409 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
 408 -> 409 ;
@@ -843,11 +1050,19 @@ node [shape=box] ;
 416 -> 420 ;
 421 [label="satisfaction_level <= 0.475\ngini = 0.075\nsamples = 1102\nvalue = [1059, 43]"] ;
 237 -> 421 ;
+<<<<<<< HEAD
 422 [label="last_evaluation <= 0.515\ngini = 0.4898\nsamples = 7\nvalue = [4, 3]"] ;
 421 -> 422 ;
 423 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
 422 -> 423 ;
 424 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
+=======
+422 [label="average_montly_hours <= 247.5\ngini = 0.4898\nsamples = 7\nvalue = [4, 3]"] ;
+421 -> 422 ;
+423 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
+422 -> 423 ;
+424 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+>>>>>>> upstream/master
 422 -> 424 ;
 425 [label="sales_support <= 0.5\ngini = 0.0704\nsamples = 1095\nvalue = [1055, 40]"] ;
 421 -> 425 ;
@@ -863,11 +1078,19 @@ node [shape=box] ;
 429 -> 430 ;
 431 [label="gini = 0.0\nsamples = 16\nvalue = [16, 0]"] ;
 430 -> 431 ;
+<<<<<<< HEAD
 432 [label="last_evaluation <= 0.815\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
 430 -> 432 ;
 433 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 432 -> 433 ;
 434 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+=======
+432 [label="sales_IT <= 0.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+430 -> 432 ;
+433 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+432 -> 433 ;
+434 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+>>>>>>> upstream/master
 432 -> 434 ;
 435 [label="gini = 0.0\nsamples = 405\nvalue = [405, 0]"] ;
 429 -> 435 ;
@@ -919,16 +1142,25 @@ node [shape=box] ;
 457 -> 458 ;
 459 [label="gini = 0.0\nsamples = 24\nvalue = [24, 0]"] ;
 458 -> 459 ;
+<<<<<<< HEAD
 460 [label="number_project <= 4.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
 458 -> 460 ;
 461 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 460 -> 461 ;
 462 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+=======
+460 [label="average_montly_hours <= 217.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+458 -> 460 ;
+461 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+460 -> 461 ;
+462 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+>>>>>>> upstream/master
 460 -> 462 ;
 463 [label="last_evaluation <= 0.795\ngini = 0.48\nsamples = 10\nvalue = [6, 4]"] ;
 457 -> 463 ;
 464 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 463 -> 464 ;
+<<<<<<< HEAD
 465 [label="sales_RandD <= 0.5\ngini = 0.375\nsamples = 8\nvalue = [6, 2]"] ;
 463 -> 465 ;
 466 [label="average_montly_hours <= 132.0\ngini = 0.2449\nsamples = 7\nvalue = [6, 1]"] ;
@@ -939,6 +1171,18 @@ node [shape=box] ;
 466 -> 468 ;
 469 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 465 -> 469 ;
+=======
+465 [label="average_montly_hours <= 132.0\ngini = 0.375\nsamples = 8\nvalue = [6, 2]"] ;
+463 -> 465 ;
+466 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+465 -> 466 ;
+467 [label="sales_RandD <= 0.5\ngini = 0.2449\nsamples = 7\nvalue = [6, 1]"] ;
+465 -> 467 ;
+468 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
+467 -> 468 ;
+469 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+467 -> 469 ;
+>>>>>>> upstream/master
 470 [label="average_montly_hours <= 154.5\ngini = 0.046\nsamples = 85\nvalue = [83, 2]"] ;
 456 -> 470 ;
 471 [label="average_montly_hours <= 153.5\ngini = 0.1472\nsamples = 25\nvalue = [23, 2]"] ;
@@ -947,7 +1191,11 @@ node [shape=box] ;
 471 -> 472 ;
 473 [label="gini = 0.0\nsamples = 22\nvalue = [22, 0]"] ;
 472 -> 473 ;
+<<<<<<< HEAD
 474 [label="average_montly_hours <= 149.0\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+=======
+474 [label="last_evaluation <= 0.84\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+>>>>>>> upstream/master
 472 -> 474 ;
 475 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 474 -> 475 ;
@@ -957,11 +1205,19 @@ node [shape=box] ;
 471 -> 477 ;
 478 [label="gini = 0.0\nsamples = 60\nvalue = [60, 0]"] ;
 470 -> 478 ;
+<<<<<<< HEAD
 479 [label="satisfaction_level <= 0.685\ngini = 0.48\nsamples = 5\nvalue = [2, 3]"] ;
 455 -> 479 ;
 480 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
 479 -> 480 ;
 481 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+=======
+479 [label="promotion_last_5years <= 0.5\ngini = 0.48\nsamples = 5\nvalue = [2, 3]"] ;
+455 -> 479 ;
+480 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+479 -> 480 ;
+481 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+>>>>>>> upstream/master
 479 -> 481 ;
 482 [label="gini = 0.0\nsamples = 53\nvalue = [53, 0]"] ;
 454 -> 482 ;
@@ -977,6 +1233,7 @@ node [shape=box] ;
 486 -> 487 ;
 488 [label="last_evaluation <= 0.885\ngini = 0.3856\nsamples = 23\nvalue = [17, 6]"] ;
 486 -> 488 ;
+<<<<<<< HEAD
 489 [label="salary_high <= 0.5\ngini = 0.4444\nsamples = 9\nvalue = [3, 6]"] ;
 488 -> 489 ;
 490 [label="gini = 0.0\nsamples = 5\nvalue = [0, 5]"] ;
@@ -987,6 +1244,18 @@ node [shape=box] ;
 491 -> 492 ;
 493 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
 491 -> 493 ;
+=======
+489 [label="salary_low <= 0.5\ngini = 0.4444\nsamples = 9\nvalue = [3, 6]"] ;
+488 -> 489 ;
+490 [label="last_evaluation <= 0.865\ngini = 0.375\nsamples = 4\nvalue = [3, 1]"] ;
+489 -> 490 ;
+491 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+490 -> 491 ;
+492 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
+490 -> 492 ;
+493 [label="gini = 0.0\nsamples = 5\nvalue = [0, 5]"] ;
+489 -> 493 ;
+>>>>>>> upstream/master
 494 [label="gini = 0.0\nsamples = 14\nvalue = [14, 0]"] ;
 488 -> 494 ;
 495 [label="satisfaction_level <= 0.555\ngini = 0.1514\nsamples = 206\nvalue = [189, 17]"] ;
@@ -1001,6 +1270,7 @@ node [shape=box] ;
 497 -> 499 ;
 500 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
 499 -> 500 ;
+<<<<<<< HEAD
 501 [label="number_project <= 4.5\ngini = 0.48\nsamples = 10\nvalue = [4, 6]"] ;
 499 -> 501 ;
 502 [label="number_project <= 3.5\ngini = 0.4898\nsamples = 7\nvalue = [4, 3]"] ;
@@ -1015,6 +1285,22 @@ node [shape=box] ;
 502 -> 506 ;
 507 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
 501 -> 507 ;
+=======
+501 [label="satisfaction_level <= 0.515\ngini = 0.48\nsamples = 10\nvalue = [4, 6]"] ;
+499 -> 501 ;
+502 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+501 -> 502 ;
+503 [label="number_project <= 3.5\ngini = 0.4898\nsamples = 7\nvalue = [4, 3]"] ;
+501 -> 503 ;
+504 [label="last_evaluation <= 0.56\ngini = 0.375\nsamples = 4\nvalue = [1, 3]"] ;
+503 -> 504 ;
+505 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+504 -> 505 ;
+506 [label="gini = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
+504 -> 506 ;
+507 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]"] ;
+503 -> 507 ;
+>>>>>>> upstream/master
 508 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 496 -> 508 ;
 509 [label="salary_high <= 0.5\ngini = 0.0976\nsamples = 175\nvalue = [166, 9]"] ;
@@ -1039,13 +1325,21 @@ node [shape=box] ;
 517 -> 518 ;
 519 [label="gini = 0.0\nsamples = 16\nvalue = [16, 0]"] ;
 518 -> 519 ;
+<<<<<<< HEAD
 520 [label="last_evaluation <= 0.935\ngini = 0.32\nsamples = 5\nvalue = [4, 1]"] ;
+=======
+520 [label="average_montly_hours <= 171.5\ngini = 0.32\nsamples = 5\nvalue = [4, 1]"] ;
+>>>>>>> upstream/master
 518 -> 520 ;
 521 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 520 -> 521 ;
 522 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
 520 -> 522 ;
+<<<<<<< HEAD
 523 [label="last_evaluation <= 0.86\ngini = 0.48\nsamples = 5\nvalue = [3, 2]"] ;
+=======
+523 [label="average_montly_hours <= 163.5\ngini = 0.48\nsamples = 5\nvalue = [3, 2]"] ;
+>>>>>>> upstream/master
 517 -> 523 ;
 524 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 523 -> 524 ;
@@ -1055,7 +1349,11 @@ node [shape=box] ;
 512 -> 526 ;
 527 [label="number_project <= 2.5\ngini = 0.0588\nsamples = 33\nvalue = [32, 1]"] ;
 511 -> 527 ;
+<<<<<<< HEAD
 528 [label="satisfaction_level <= 0.735\ngini = 0.32\nsamples = 5\nvalue = [4, 1]"] ;
+=======
+528 [label="last_evaluation <= 0.67\ngini = 0.32\nsamples = 5\nvalue = [4, 1]"] ;
+>>>>>>> upstream/master
 527 -> 528 ;
 529 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 528 -> 529 ;
@@ -1101,11 +1399,19 @@ node [shape=box] ;
 548 -> 549 ;
 550 [label="satisfaction_level <= 0.82\ngini = 0.2188\nsamples = 8\nvalue = [7, 1]"] ;
 548 -> 550 ;
+<<<<<<< HEAD
 551 [label="average_montly_hours <= 197.0\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
 550 -> 551 ;
 552 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
 551 -> 552 ;
 553 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+=======
+551 [label="satisfaction_level <= 0.75\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+550 -> 551 ;
+552 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+551 -> 552 ;
+553 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+>>>>>>> upstream/master
 551 -> 553 ;
 554 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
 550 -> 554 ;
@@ -1117,6 +1423,7 @@ node [shape=box] ;
 555 -> 557 ;
 558 [label="sales_technical <= 0.5\ngini = 0.3343\nsamples = 33\nvalue = [26, 7]"] ;
 538 -> 558 ;
+<<<<<<< HEAD
 559 [label="salary_low <= 0.5\ngini = 0.1327\nsamples = 28\nvalue = [26, 2]"] ;
 558 -> 559 ;
 560 [label="average_montly_hours <= 166.5\ngini = 0.32\nsamples = 10\nvalue = [8, 2]"] ;
@@ -1131,17 +1438,41 @@ node [shape=box] ;
 560 -> 564 ;
 565 [label="gini = 0.0\nsamples = 18\nvalue = [18, 0]"] ;
 559 -> 565 ;
+=======
+559 [label="salary_high <= 0.5\ngini = 0.1327\nsamples = 28\nvalue = [26, 2]"] ;
+558 -> 559 ;
+560 [label="gini = 0.0\nsamples = 18\nvalue = [18, 0]"] ;
+559 -> 560 ;
+561 [label="average_montly_hours <= 166.5\ngini = 0.32\nsamples = 10\nvalue = [8, 2]"] ;
+559 -> 561 ;
+562 [label="average_montly_hours <= 146.5\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
+561 -> 562 ;
+563 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+562 -> 563 ;
+564 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+562 -> 564 ;
+565 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
+561 -> 565 ;
+>>>>>>> upstream/master
 566 [label="gini = 0.0\nsamples = 5\nvalue = [0, 5]"] ;
 558 -> 566 ;
 567 [label="sales_sales <= 0.5\ngini = 0.0149\nsamples = 400\nvalue = [397, 3]"] ;
 537 -> 567 ;
 568 [label="average_montly_hours <= 132.5\ngini = 0.0054\nsamples = 372\nvalue = [371, 1]"] ;
 567 -> 568 ;
+<<<<<<< HEAD
 569 [label="last_evaluation <= 0.72\ngini = 0.0555\nsamples = 35\nvalue = [34, 1]"] ;
 568 -> 569 ;
 570 [label="gini = 0.0\nsamples = 33\nvalue = [33, 0]"] ;
 569 -> 570 ;
 571 [label="number_project <= 4.0\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+=======
+569 [label="average_montly_hours <= 131.5\ngini = 0.0555\nsamples = 35\nvalue = [34, 1]"] ;
+568 -> 569 ;
+570 [label="gini = 0.0\nsamples = 33\nvalue = [33, 0]"] ;
+569 -> 570 ;
+571 [label="promotion_last_5years <= 0.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+>>>>>>> upstream/master
 569 -> 571 ;
 572 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 571 -> 572 ;
@@ -1217,11 +1548,19 @@ node [shape=box] ;
 605 -> 607 ;
 608 [label="time_spend_company <= 5.5\ngini = 0.142\nsamples = 26\nvalue = [24, 2]"] ;
 604 -> 608 ;
+<<<<<<< HEAD
 609 [label="salary_high <= 0.5\ngini = 0.4082\nsamples = 7\nvalue = [5, 2]"] ;
 608 -> 609 ;
 610 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
 609 -> 610 ;
 611 [label="average_montly_hours <= 154.5\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+=======
+609 [label="average_montly_hours <= 163.0\ngini = 0.4082\nsamples = 7\nvalue = [5, 2]"] ;
+608 -> 609 ;
+610 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
+609 -> 610 ;
+611 [label="salary_high <= 0.5\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+>>>>>>> upstream/master
 609 -> 611 ;
 612 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
 611 -> 612 ;
@@ -1241,7 +1580,11 @@ node [shape=box] ;
 618 -> 619 ;
 620 [label="last_evaluation <= 0.94\ngini = 0.5\nsamples = 14\nvalue = [7, 7]"] ;
 618 -> 620 ;
+<<<<<<< HEAD
 621 [label="salary_low <= 0.5\ngini = 0.2778\nsamples = 6\nvalue = [1, 5]"] ;
+=======
+621 [label="satisfaction_level <= 0.685\ngini = 0.2778\nsamples = 6\nvalue = [1, 5]"] ;
+>>>>>>> upstream/master
 620 -> 621 ;
 622 [label="gini = 0.0\nsamples = 5\nvalue = [0, 5]"] ;
 621 -> 622 ;
@@ -1273,7 +1616,11 @@ node [shape=box] ;
 634 -> 635 ;
 636 [label="satisfaction_level <= 0.775\ngini = 0.1107\nsamples = 17\nvalue = [1, 16]"] ;
 635 -> 636 ;
+<<<<<<< HEAD
 637 [label="sales_support <= 0.5\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+=======
+637 [label="salary_high <= 0.5\ngini = 0.4444\nsamples = 3\nvalue = [1, 2]"] ;
+>>>>>>> upstream/master
 636 -> 637 ;
 638 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 637 -> 638 ;
@@ -1281,11 +1628,19 @@ node [shape=box] ;
 637 -> 639 ;
 640 [label="gini = 0.0\nsamples = 14\nvalue = [0, 14]"] ;
 636 -> 640 ;
+<<<<<<< HEAD
 641 [label="satisfaction_level <= 0.755\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
 635 -> 641 ;
 642 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
 641 -> 642 ;
 643 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+=======
+641 [label="salary_high <= 0.5\ngini = 0.5\nsamples = 4\nvalue = [2, 2]"] ;
+635 -> 641 ;
+642 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+641 -> 642 ;
+643 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]"] ;
+>>>>>>> upstream/master
 641 -> 643 ;
 644 [label="gini = 0.0\nsamples = 48\nvalue = [0, 48]"] ;
 634 -> 644 ;
@@ -1305,6 +1660,7 @@ node [shape=box] ;
 647 -> 651 ;
 652 [label="gini = 0.0\nsamples = 433\nvalue = [0, 433]"] ;
 651 -> 652 ;
+<<<<<<< HEAD
 653 [label="salary_high <= 0.5\ngini = 0.0183\nsamples = 108\nvalue = [1, 107]"] ;
 651 -> 653 ;
 654 [label="average_montly_hours <= 244.0\ngini = 0.0605\nsamples = 32\nvalue = [1, 31]"] ;
@@ -1353,4 +1709,50 @@ node [shape=box] ;
 631 -> 675 ;
 676 [label="gini = 0.0\nsamples = 55\nvalue = [55, 0]"] ;
 616 -> 676 ;
+=======
+653 [label="sales_product_mng <= 0.5\ngini = 0.0183\nsamples = 108\nvalue = [1, 107]"] ;
+651 -> 653 ;
+654 [label="gini = 0.0\nsamples = 76\nvalue = [0, 76]"] ;
+653 -> 654 ;
+655 [label="average_montly_hours <= 243.5\ngini = 0.0605\nsamples = 32\nvalue = [1, 31]"] ;
+653 -> 655 ;
+656 [label="average_montly_hours <= 242.5\ngini = 0.2778\nsamples = 6\nvalue = [1, 5]"] ;
+655 -> 656 ;
+657 [label="gini = 0.0\nsamples = 5\nvalue = [0, 5]"] ;
+656 -> 657 ;
+658 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+656 -> 658 ;
+659 [label="gini = 0.0\nsamples = 26\nvalue = [0, 26]"] ;
+655 -> 659 ;
+660 [label="satisfaction_level <= 0.89\ngini = 0.1107\nsamples = 17\nvalue = [1, 16]"] ;
+646 -> 660 ;
+661 [label="gini = 0.0\nsamples = 16\nvalue = [0, 16]"] ;
+660 -> 661 ;
+662 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+660 -> 662 ;
+663 [label="last_evaluation <= 0.965\ngini = 0.1244\nsamples = 30\nvalue = [2, 28]"] ;
+645 -> 663 ;
+664 [label="gini = 0.0\nsamples = 21\nvalue = [0, 21]"] ;
+663 -> 664 ;
+665 [label="satisfaction_level <= 0.915\ngini = 0.3457\nsamples = 9\nvalue = [2, 7]"] ;
+663 -> 665 ;
+666 [label="salary_high <= 0.5\ngini = 0.2188\nsamples = 8\nvalue = [1, 7]"] ;
+665 -> 666 ;
+667 [label="gini = 0.0\nsamples = 6\nvalue = [0, 6]"] ;
+666 -> 667 ;
+668 [label="last_evaluation <= 0.98\ngini = 0.5\nsamples = 2\nvalue = [1, 1]"] ;
+666 -> 668 ;
+669 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+668 -> 669 ;
+670 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+668 -> 670 ;
+671 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
+665 -> 671 ;
+672 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]"] ;
+632 -> 672 ;
+673 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
+631 -> 673 ;
+674 [label="gini = 0.0\nsamples = 55\nvalue = [55, 0]"] ;
+616 -> 674 ;
+>>>>>>> upstream/master
 }
